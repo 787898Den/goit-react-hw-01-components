@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 import styles from './Statistics.module.css';
-import getRandomHexColor from '../getRandomHexColor';
+import getRandomHexColor from '../../helpers/getRandomHexColor';
 
 function Statistics({ title, stats }) {
   return (
